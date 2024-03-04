@@ -9,6 +9,11 @@ body {
 	font-size: 100%;
 }
 
+a:hover,
+a:focus {
+	font-style: italic;
+}
+
 /* the styles for the header */
 header img {
 	float: left;
@@ -46,11 +51,6 @@ main h2 {
 
 main h3 {
 	font-size: 105%;
-}
-
-main p a:hover {
-	color: var(--global-color-1);
-	font-style: italic;
 }
 
 /* the styles for the footer */
